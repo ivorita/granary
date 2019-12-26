@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/qmui_config_color_background"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.layout.QMUILinearLayout
+        android:id="@+id/qmui_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/qmui_config_color_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:qmui_borderColor="?attr/qmui_config_color_separator"
+        app:qmui_outerNormalColor="?attr/qmui_config_color_background"
+        app:qmui_showBorderOnlyBeforeL="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.android.ivorita.granary.view.MeterView
+                android:id="@+id/TempCtrlView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:param_name="温度"
+                app:value_text="20"
+                app:value_unit="℃"/>
+
+            <View style="@style/setting_divider_style_vertical"/>
+
+            <com.android.ivorita.granary.view.MeterView
+                android:id="@+id/humidityView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:param_name="湿度"
+                app:value_text="70"
+                app:value_unit="%"/>
+
+        </LinearLayout>
+
+        <View style="@style/setting_divider_style"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.android.ivorita.granary.view.MeterView
+                android:id="@+id/illuView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:param_name="光照强度"
+                app:value_text="100"
+                app:value_unit="lux"/>
+
+            <View style="@style/setting_divider_style_vertical"/>
+
+            <com.android.ivorita.granary.view.MeterView
+                android:id="@+id/cdView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:param_name="可燃气体"
+                app:value_text="80"
+                app:value_unit="ppm"/>
+
+            <!--CO₂-->
+
+        </LinearLayout>
+
+    </com.qmuiteam.qmui.layout.QMUILinearLayout>
+
+
+</LinearLayout>

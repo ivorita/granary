@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="warning_red">#FF4040</color>
+
+    <color name="c_blue">#2196F3</color>
+
+    <color name="air_temp">#4289ff</color>
+    <color name="green">#4caf50</color>
+    <color name="light">#ff8a01</color>
+    <color name="co_2">#00bcde</color>
+</resources>

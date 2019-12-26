@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MeterView">
+
+        <!--参数名-->
+        <attr name="param_name" format="string" />
+        <!--参数名字体大小-->
+        <attr name="param_textSize" format="dimension" />
+        <!--参数名字体颜色-->
+        <attr name="param_textColor" format="color" />
+
+        <!--数值文本-->
+        <attr name="value_text" format="string" />
+        <!--数值字体大小-->
+        <attr name="value_textSize" format="dimension" />
+        <!--数值字体颜色-->
+        <attr name="value_textColor" format="color" />
+        <!--数值单位-->
+        <attr name="value_unit" format="string"/>
+
+        <!--数值范围字体大小-->
+        <attr name="valueFlag_textSize" format="dimension" />
+        <!--数值范围字体颜色-->
+        <attr name="valueFlag_textColor" format="color" />
+
+        <!--数值圆弧颜色-->
+        <attr name="valueArc_color" format="color" />
+        <!--总圆弧颜色-->
+        <attr name="totalArc_color" format="color" />
+        <!--圆弧宽度-->
+        <attr name="arc_width" format="dimension" />
+
+    </declare-styleable>
+
+</resources>
